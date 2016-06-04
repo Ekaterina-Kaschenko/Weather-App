@@ -107,7 +107,7 @@
 .city-list {
   margin-left: 2em;
   overflow-y: auto;
-  min-height: calc(100% - 22em);
+/*   min-height: calc(100% - 22em); */
 }
 
 .city-list__icon {
@@ -161,7 +161,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
+/*   width: 100%; */
   background-color: #152132;
   padding-left: 1em;
   font-family: 'PTSans Narrow', 'Arial Narrow', 'Helvetica', sans-serif;
