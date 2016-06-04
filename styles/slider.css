@@ -1,0 +1,22 @@
+.slider__slide {
+  display: flex;
+  width: 100%;
+}
+
+.sidebar__options__item-slider {
+  display: flex;
+  justify-content: space-between;
+  /*font-family: 'PTSans Narrow', 'Arial Narrow', 'Helvetica', sans-serif;*/
+  font-size: 1.3em;
+  padding-bottom: .7em;
+
+}
+
+.sidebar__options__item-slider-description {
+  text-transform: uppercase;
+  color: #6c6f76;
+}
+
+.sp-mask {
+  height: 80vh !important;
+}

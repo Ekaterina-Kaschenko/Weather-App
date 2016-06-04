@@ -1,0 +1,23 @@
+<div class="current-weather">
+  <div class="current-weather__item">
+    <div class="current-weather__item-icon">
+      <i class="<%= weather.weatherIcon %> temperature-icon"></i>
+    </div>
+    <div class="current-weather__item-info">
+      <p class="current-weather__item-info-temperature">
+        <%= weather.temperature %>&deg;
+      </p>
+      <p class="current-weather__item-info-description">
+        <%= weather.description %>
+      </p>
+    </div>
+  </div>
+  <div class="current-weather__item-time">
+    <div class="current-weather__item-time-icon">
+      <i class="current-weather__icon <%= weather.weatherIcon %>"></i>
+    </div>
+    <div class="current-weather__item-time-value">
+      <%= weather.temperature %>&deg;
+    </div>
+  </div>
+</div>

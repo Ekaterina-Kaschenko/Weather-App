@@ -1,0 +1,24 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "jquery.scrollbar": "^0.2.10",
+    "lodash": "^4.12.0",
+    "rangeslider.js": "^2.1.1",
+    "slick-carousel": "^1.6.0",
+    "slider-pro": "^1.2.5"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.12.3",
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files './styles/**/*.css'"
+  },
+  "author": "",
+  "license": "ISC"
+}

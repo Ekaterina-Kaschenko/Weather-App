@@ -1,0 +1,88 @@
+.current-time {
+  font-size: 1.3em;
+}
+
+.icon-refresh {
+  font-size: 1.2em;
+  margin-left: .5em;
+}
+
+.current-city__name {
+  font-size: 4em;
+  letter-spacing: 0.145em;
+  margin-top: .2em;
+  text-transform: uppercase;
+}
+
+.current-city__data {
+  font-size: 1.8em;
+  letter-spacing: .2em;
+  margin-bottom: .5em;
+  text-transform: uppercase;
+}
+
+.current-weather {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.current-weather__item {
+  display: flex;
+  margin: 1.5em;
+  align-items: center;
+}
+
+.temperature-icon {
+  font-size: 5em;
+}
+
+.current-weather__item-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+  margin-left: 1.5em;
+}
+
+.current-weather__item-info-temperature {
+  font-size: 5em;
+}
+
+.current-weather__item-info-description {
+  font-size: 1.5em;
+  margin-top: -0.32em;
+  margin-left: 1em;
+}
+
+.current-weather__item-time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2.5em 3em;
+}
+
+.current-weather__icon,
+.current-weather__item-time-value {
+  font-size: 2em;
+  margin-top: .5em;
+}
+
+.day-info {
+  white-space: nowrap;
+}
+
+.day-info__item {
+  width: 24%;
+  padding: .5em 0;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.day-info__item-icon,
+.day-info__item-weather {
+  font-size: 1.5em;
+  margin: .5em 0;
+}

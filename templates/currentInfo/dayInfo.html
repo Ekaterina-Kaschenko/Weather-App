@@ -1,0 +1,32 @@
+<% if (type === 'day') { %>
+<div class="day-info scrollbar-macosx" id="day-scrollbar">
+  <% for(var i = 0; i < info.length; i++) { %>
+    <div class="day-info__item">
+      <div class="day-info__item-time">
+        <%= info[i].time %>
+      </div>
+      <div class="day-info__item-icon">
+        <i class="icon <%= info[i].icon %>"></i>
+      </div>
+      <div class="day-info__item-weather">
+        <%= info[i].temperature %>&deg;
+      </div>
+    </div>
+  <% } %>
+</div>
+<% } %>
+
+<% if (type === 'week') { %>
+<div class="day-info">
+  <% for(var i = 0; i < info.length; i++) { %>
+  <div class="day-info__item">
+    <div class="day-info__item-icon">
+      <i class="icon <%= info[i].icon %>"></i>
+    </div>
+    <div class="day-info__item-weather">
+      <%= info[i].info %>
+    </div>
+  </div>
+  <% } %>
+</div>
+<% } %>

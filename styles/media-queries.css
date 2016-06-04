@@ -1,0 +1,185 @@
+@media only screen and (max-width: 1900px) {
+  .header__menu_show {
+    left: -15%;
+  }
+}
+
+@media only screen and (max-width: 1750px) {
+  .header__menu_show {
+    left: -18%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .header__menu_show {
+    left: -24%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .main {
+    width: 94%;
+    margin-top: 7%;
+  }
+
+  .sidebar {
+    width: 50%;
+  }
+
+  .sidebar_show {
+    right: -50%;
+  }
+
+  .header__menu_show {
+    left: -21%;
+  }
+
+  .sp-buttons {
+    width: 98%;
+  }
+
+  .slick-dots {
+    width: 94%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .header__menu_show {
+    left: -22%;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .header__menu_show {
+    left: -23%;
+  }
+
+  .sun {
+    width: 11em;
+    height: 11em;
+  }
+
+  .main {
+    width: 94%;
+    margin-top: 8%;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .header__menu_show {
+    left: -24%;
+  }
+
+  .main {
+    margin-top: 8%;
+  }
+
+  .sun {
+    width: 10em;
+    height: 10em;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .header__menu_show {
+    left: -25%;
+  }
+
+  .main {
+    margin-top: 8%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .header__menu_show {
+    left: -26%;
+  }
+
+  .main {
+    margin-top: 8%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .main {
+    margin-top: 5%;
+  }
+
+  .slider {
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+  }
+
+  .current-info,
+  .week-info {
+    width: 95%;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .header__menu_show {
+    left: -12%;
+  }
+
+  .sidebar_show {
+    right: -100%;
+  }
+
+}
+
+@media only screen and (max-width: 640px) {
+  .header__menu_show {
+    left: -13%;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .header__menu_show {
+    left: -14%;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  .header__menu_show {
+    left: -15%;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  .header__menu_show {
+    left: -18%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .header__menu_show {
+    left: -21%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .current-info,
+  .week-info {
+    width: 90%;
+  }
+
+  .header__menu_show {
+    left: -24%;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  /*.sidebar {*/
+    /*height: 100%;*/
+  /*}*/
+
+  .sidebar__options {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+  }
+}

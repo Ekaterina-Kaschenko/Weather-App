@@ -1,0 +1,15 @@
+  <% for(var i = 0; i < week.length; i++) { %>
+    <div class="week-info__item">
+      <div class="week-info__item-day">
+        <div class="week__day"><%= week[i].day %></div>
+        <div class="week__icon">
+          <i class="week__icon__value <%= week[i].icon %>"></i>
+        </div>
+      </div>
+      <div class="week-info__item-temperature">
+        <span class="week-info__temperature-value week__temperature-value-min"><%= week[i].minTemperature %></span>
+        <div class="week-info__temperature-ranger"></div>
+        <span class="week-info__temperature-value week__temperature-value-max"><%= week[i].maxTemperature %></span>
+      </div>
+    </div>
+  <% } %>

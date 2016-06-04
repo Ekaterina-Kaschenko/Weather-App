@@ -1,0 +1,49 @@
+.rangeslider {
+  background: #09101a;
+  position: relative;
+}
+
+.rangeslider--horizontal {
+  height: 5px;
+  width: 100%;
+}
+
+.rangeslider--vertical {
+  width: 10px;
+  min-height: 150px;
+  max-height: 100%;
+}
+
+.rangeslider__fill {
+  background: #fe4203;
+  position: absolute;
+}
+.rangeslider--horizontal .rangeslider__fill {
+  top: 0;
+  height: 100%;
+}
+.rangeslider--vertical .rangeslider__fill {
+  bottom: 0;
+  width: 100%;
+}
+
+.rangeslider__handle {
+  background: #09101a;
+  border: 5px solid #fff;
+  cursor: pointer;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-size: 100%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.rangeslider--horizontal .rangeslider__handle {
+  top: -10px;
+}
+.rangeslider--vertical .rangeslider__handle {
+  left: -10px;
+}

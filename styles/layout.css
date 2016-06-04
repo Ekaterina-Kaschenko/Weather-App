@@ -1,0 +1,48 @@
+body {
+  min-width: 375px;
+  background:#166eef;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.main {
+  width: 66%;
+  margin: 2em;
+}
+
+.current-info,
+.week-info {
+  width: 50%;
+  margin-right: 1em;
+  font-family: 'PTSans Narrow', 'Arial Narrow', 'Helvetica', sans-serif;
+}
+
+.icon-refresh {
+  font-size: 1em;
+  margin-left: .5em;
+}
+
+.slider {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
