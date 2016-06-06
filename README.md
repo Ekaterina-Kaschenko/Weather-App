@@ -1,8 +1,20 @@
 # Weather-App
 
-To start my app do next steps:
-1. clone or download repository
+## How-To
+### Run application:
+
+1. run:
+  ```sh
+  git clone https://github.com/Ekaterina-Kaschenko/weather-App
+  ```
 2. download and install Node.js from http://nodejs.org/ 
 3. open folder with package.json in console
-4. run: npm install
-5. run: gulp and wait while page open in your browser.
+4. run:
+  ```sh
+  npm install
+  ```
+5. run:
+  ```sh
+  gulp
+  ```
+6. wait until page will be opened in your browser.
