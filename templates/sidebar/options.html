@@ -1,0 +1,31 @@
+<div class="options sidebar__options">
+  <div class="sidebar__options__item-options">
+    <div class="measuring-temperature">
+      <span class="measuring-temperature-celsius active-temperature">&deg;C</span>
+      <span class="measuring-temperature-separator">|</span>
+      <span class="measuring-temperature-fahrenheit">&deg;F</span>
+    </div>
+    <div class="sidebar__options__item-settings">
+      <i class="icon icon-settings"></i>
+    </div>
+  </div>
+  <div class="sidebar__options__item">
+    <div class="sidebar__options__item-slider">
+      <span class="sidebar__options__item-slider-description">Show weather for</span>
+      <span class="sidebar__options__item-slider-days"><output id="range-days-output">4
+      </output> days</span>
+    </div>
+    <div class="temperature-range">
+      <input type="range" min="0" max="7" value="4" step="1" id="range-days">
+    </div>
+  </div>
+  <div class="sidebar__options__item">
+    <div class="sidebar__options__item-slider">
+      <span class="sidebar__options__item-slider-description">Update weather every</span>
+      <span class="sidebar__options__item-slider-time"><output id="range-mins-output">15</output> mins</span>
+    </div>
+    <div class="temperature-range">
+      <input type="range" min="0" max="60" value="15" step="15" id="range-mins">
+    </div>
+  </div>
+</div>

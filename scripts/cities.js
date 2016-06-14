@@ -1,4 +1,4 @@
-(function() {
+$(function() {
   var input = $('.search-field_show');
   input.on('input', function() {
     mod.findCities(input.val(), function(res) {
@@ -12,4 +12,4 @@
     //check elements events
     console.log($(this).serializeArray());
   });
-})();
+});

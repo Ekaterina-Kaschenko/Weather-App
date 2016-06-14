@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Wether App</title>
+    <title>Weather App</title>
     <meta name="viewport" content="width=device-width, user-scalable=no" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="HandheldFriendly" content="true" />
@@ -28,86 +28,7 @@
     <link rel="stylesheet" href="./styles/media-queries.css" />
   </head>
   <body>
-    <section class="wrapper" id="wrapper">
-      <main class="main">
-        <div class="one-time">
-          <div>
-            <div class="slider">
-              <div class="current-info">
-
-              </div>
-              <div class="week-info">
-
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="slider">
-              <div class="current-info" id="current-info">
-
-              </div>
-              <div class="week-info" id="week-info">
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </main>
-      <div class="sidebar">
-        <div class="header">
-          <div class="header__menu">
-            <a class="header__menu-button" href="#">
-              <i class="icon icon-menu"></i>
-            </a>
-          </div>
-          <div class="header__icons">
-            <input type="text" class="search-field_show" value="" />
-            <ul id="searchResults" class="term-list"></ul>
-            <a class="header__icons-icon header__icons-icon_add-active" href="#">
-              <i class="icon icon-add"></i>
-            </a>
-            <a class="header__icons-icon header__icons-icon_delete" href="#">
-              <i class="icon icon-delete"></i>
-            </a>
-          </div>
-        </div>
-        <form id="city-list-form">
-          <div class="city-list scrollbar-macosx" id="city-list"></div>
-        </form>
-
-        <div class="sidebar__options" id="options">
-          <div class="sidebar__options__item-options">
-            <div class="measuring-temperature">
-              <span class="measuring-temperature-celsius active-temperature">&deg;C</span>
-              <span class="measuring-temperature-separator">|</span>
-              <span class="measuring-temperature-fahrenheit">&deg;F</span>
-            </div>
-            <div class="sidebar__options__item-settings">
-              <i class="icon icon-settings"></i>
-            </div>
-          </div>
-          <div class="sidebar__options__item">
-            <div class="sidebar__options__item-slider">
-              <span class="sidebar__options__item-slider-description">Show weather for</span>
-              <span class="sidebar__options__item-slider-days"><output id="range-days-output">4
-              </output> days</span>
-            </div>
-            <div class="temperature-range">
-              <input type="range" min="0" max="7" value="4" step="1" id="range-days">
-            </div>
-          </div>
-          <div class="sidebar__options__item">
-            <div class="sidebar__options__item-slider">
-              <span class="sidebar__options__item-slider-description">Update weather every</span>
-              <span class="sidebar__options__item-slider-time"><output id="range-mins-output">15</output> mins</span>
-            </div>
-            <div class="temperature-range">
-              <input type="range" min="0" max="60" value="15" step="15" id="range-mins">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <div id="appContainer"></div>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnhEbFQSabr4G9yoOLS16WRs-OcmWx4j8&libraries=places"></script>
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./node_modules/lodash/lodash.min.js"></script>
@@ -115,20 +36,21 @@
     <script src="./node_modules/rangeslider.js/dist/rangeslider.min.js"></script>
     <script src="./node_modules/jquery.scrollbar/jquery.scrollbar.min.js"></script>
     <script src="./node_modules/slick-carousel/slick/slick.min.js"></script>
-    <script src="./script/googlePlaces.js"></script>
-    <script src="./script/app.js"></script>
-    <script src="./script/menu-button-click.js"></script>
-    <script src="./script/range.js"></script>
-    <script src="./script/sun.js"></script>
-    <script src="./script/scroll-bar.js"></script>
-    <script src="./script/temperature.js"></script>
-    <script src="./script/slick.js"></script>
-    <script src="./script/template/currentCity.js"></script>
-    <script src="./script/template/currentWeather.js"></script>
-    <script src="./script/template/dayInfo.js"></script>
-    <script src="./script/template/precipitation.js"></script>
-    <script src="./script/template/weekInfo.js"></script>
-    <script src="./script/template/cityListItem.js"></script>
-    <script src="./script/cities.js"></script>
+
+    <script src="./scripts/app.js"></script>
+    <script src="./scripts/templates/layout/layout.js"></script>
+    <script src="./scripts/templates/current-info/current-city.js"></script>
+    <script src="./scripts/templates/sidebar/header.js"></script>
+    <script src="./scripts/templates/sidebar/city-list.js"></script>
+    <script src="./scripts/templates/sidebar/city-list-item.js"></script>
+    <script src="./scripts/templates/sidebar/options.js"></script>
+    <script src="./scripts/googlePlaces.js"></script>
+    <script src="./scripts/menu-button-click.js"></script>
+    <script src="./scripts/range.js"></script>
+    <script src="./scripts/sun.js"></script>
+    <script src="./scripts/scroll-bar.js"></script>
+    <script src="./scripts/temperature.js"></script>
+    <script src="./scripts/slick.js"></script>
+    <script src="./scripts/cities.js"></script>
   </body>
 </html>

@@ -1,4 +1,5 @@
- <label class="city-list__item">
+<% _.each(items, function(item){ %>
+  <label class="city-list__item">
     <span class="city-list__item-info">
       <span class="city-list__item-icon">
         <i class="city-list__icon"></i>
@@ -14,3 +15,4 @@
       <span class="city-check__mark"></span>
     </span>
   </label>
+<% }); %>

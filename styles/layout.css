@@ -26,6 +26,7 @@ a {
 .main {
   width: 66%;
   margin: 2em;
+  display: flex;
 }
 
 .current-info,
