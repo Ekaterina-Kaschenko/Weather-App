@@ -1,9 +1,11 @@
-var currentWeather = {
-  weatherIcon: 'icon-cloudy',
-  temperature: '-2',
-  iconTime: 'icon-rain-snow',
-  time: '6:20',
-  description: 'some text'
-};
+$(function() {
+	var currentWeather = {
+	  weatherIcon: 'icon-cloudy',
+	  temperature: '-2',
+	  iconTime: 'icon-rain-snow',
+	  time: '6:20',
+	  description: 'some text'
+	};
 
-renderTemplate('currentInfo/currentWeather', '.current-info', {weather: currentWeather});
+	window.renderTemplate('current-info/current-weather', '.current-info', 'add', {weather: currentWeather});
+});

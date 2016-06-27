@@ -4,7 +4,7 @@ var browserSync = require('browser-sync').create();
 // Static server
 gulp.task('serve', ['css', 'scripts'], function() {
   gulp.watch('styles/**/*.css', ['css']);
-  gulp.watch('script/**/*.js', ['scripts']);
+  gulp.watch('scripts/**/*.js', ['scripts']);
   gulp.watch('*.html').on('change', browserSync.reload);
 
   browserSync.init({
@@ -20,7 +20,7 @@ gulp.task('css', function() {
 });
 
 gulp.task('scripts', function() {
-  return gulp.src('script/**/*.js')
+  return gulp.src('scripts/**/*.js')
     .pipe(browserSync.stream());
 });
 

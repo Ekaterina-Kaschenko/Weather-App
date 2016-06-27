@@ -9,5 +9,5 @@ $(function() {
 	};
 
 
-	window.renderTemplate('current-info/current-city', '.current-info', {city: cityData});
+	window.renderTemplate('current-info/current-city', '.current-info', 'add', {city: cityData});
 });

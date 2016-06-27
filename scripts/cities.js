@@ -4,7 +4,7 @@ $(function() {
     mod.findCities(input.val(), function(res) {
       var cityList = document.getElementsByClassName('city-list');
       cityList[0].innerHTML = '';
-      renderTemplate('currentInfo/cityListItem', '.city-list', {items: res});
+      window.renderTemplate('sidebar/city-list-item', '.city-list', 'add', {items: res});
     });
   });
 
